@@ -5,7 +5,7 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
         <ImplicitUsings>true</ImplicitUsings>
-        <AssemblyName>com.github.TheCalicoDragon.Its_Nervin_Time</AssemblyName>
+        <AssemblyName>com.github.TheCalicoDragon.Nervus</AssemblyName>
         <Product>Its Nervin Time</Product>
         <Description>Lets you use the (as of now) unimplemented Nervus medium hydrogen engine, and more!</Description>
         <Version>1.0.0</Version>
