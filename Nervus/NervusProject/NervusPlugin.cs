@@ -1,29 +1,8 @@
 ﻿using BepInEx;
 using HarmonyLib;
 using SpaceWarp;
-using SpaceWarp.API.Assets;
-using System.Reflection;
-using UnityEngine;
-using System.Collections.Generic;
 using KSP.Modules;
-using KSP.Game;
 using SpaceWarp.API.Mods;
-using SpaceWarp.API.Game;
-using SpaceWarp.API.Game.Extensions;
-using SpaceWarp.API.UI;
-using SpaceWarp.API.UI.Appbar;
-using UnityEngine.Experimental.AssetBundlePatching;
-using System.Xml.Serialization;
-using KSP.Messages;
-using KSP.OAB;
-using KSP.Sim.Definitions;
-using MoonSharp.Interpreter.Tree.Statements;
-using JetBrains.Annotations;
-using System.Runtime.InteropServices;
-using KSP.Game.Load;
-using KSP.Sim.impl;
-using KSP.Sim.Converters;
-using EdyCommonTools;
 
 namespace Nervus;
 
