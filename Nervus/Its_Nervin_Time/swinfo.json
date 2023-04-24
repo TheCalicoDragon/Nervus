@@ -4,7 +4,7 @@
   "name": "Its Nervin Time",
   "description": "Lets you use the (as of now) unimplemented Nervus medium hydrogen engine.",
   "source": "",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "version_check": "",
   "dependencies": [
     {
