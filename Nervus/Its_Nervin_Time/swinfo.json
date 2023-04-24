@@ -1,0 +1,22 @@
+{
+  "mod_id": "Its_Nervin_Time",
+  "author": "TheCalicoDragon",
+  "name": "Its Nervin Time",
+  "description": "Lets you use the (as of now) unimplemented Nervus medium hydrogen engine.",
+  "source": "",
+  "version": "1.0.0",
+  "version_check": "",
+  "dependencies": [
+    {
+      "id":  "SpaceWarp",
+      "version": {
+        "min": "1.0.1",
+        "max": "*"
+      }
+    }
+  ],
+  "ksp2_version": {
+    "min": "0.1.0",
+    "max": "*"
+  }
+}
