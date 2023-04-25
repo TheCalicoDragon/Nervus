@@ -46,12 +46,12 @@ public class NervusPlugin : BaseSpaceWarpPlugin
         var stop = false;
         Instance = this;
         base.OnInitialized();
+        string[] parts = { "engine_2v_hydrogen_nervus", "claw_1v_advanced", "strut_2v_heavy_extensible", "parachute_1v_eva", "factory_2v_methalox-monoprop" };
         Task.Run(() =>
         {
             while (!stop) {
                 try
                 {
-                    string[] parts = { "engine_2v_hydrogen_nervus", "claw_1v_advanced", "strut_2v_heavy_extensible", "parachute_1v_eva" };
                     {
 
                         for (i = 0; i < parts.Length; i++)
@@ -69,7 +69,7 @@ public class NervusPlugin : BaseSpaceWarpPlugin
                             {
                                 Log("Could not find " + partName + ".");
                             }
-                            if (found == true && i == 3)
+                            if (found == true && i == parts.Length)
                             {
                                 stop = true;
                             }
@@ -79,7 +79,7 @@ public class NervusPlugin : BaseSpaceWarpPlugin
                 }
                 catch { Log("Didn't work."); }
                 Thread.Sleep(10000);
-                if (found == true && i == 3)
+                if (found == true && i == parts.Length)
                 {
                     stop = true;
                     break;
